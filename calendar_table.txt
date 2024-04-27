@@ -1,0 +1,32 @@
+let
+    EndDate = Date.From(DateTime.LocalNow()),
+/*
+    Change this line according with the desired StartDate
+    Example:
+        1) Date.StartOfMonth(List.Min(Despesas[Data de Compra]))
+        2) #date(2021, 01, 01)
+*/
+    StartDate = #date(2021, 01, 01),
+    Source = List.Dates( EndDate, Duration.Days( EndDate - StartDate ) + 1, #duration(1, 0, 0, 0) ),
+    #"Converted to Table" = Table.FromList(Source, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+    #"Changed Type" = Table.TransformColumnTypes(#"Converted to Table",{{"Column1", type date}}),
+    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"Column1", "Date"}}),
+    #"Inserted Year" = Table.AddColumn(#"Renamed Columns", "Year", each Date.Year([Date]), Int64.Type),
+    #"Inserted Month" = Table.AddColumn(#"Inserted Year", "Month", each Date.Month([Date]), Int64.Type),
+    #"Inserted Start of Month" = Table.AddColumn(#"Inserted Month", "Start of Month", each Date.StartOfMonth([Date]), type date),
+    #"Inserted Month Name" = Table.AddColumn(#"Inserted Start of Month", "Month Name", each Date.MonthName([Date]), type text),
+    #"Inserted First Characters" = Table.AddColumn(#"Inserted Month Name", "First Characters", each Text.Start([Month Name], 3), type text),
+    #"Renamed Columns1" = Table.RenameColumns(#"Inserted First Characters",{{"First Characters", "Month Short Name"}}),
+    #"Inserted Merged Column" = Table.AddColumn(#"Renamed Columns1", "Year Month", each Text.Combine({Text.From([Year], "pt-BR"), [Month Short Name]}, "-"), type text),
+    #"Inserted Merged Column1" = Table.AddColumn(#"Inserted Merged Column", "Year Month Long", each Text.Combine({Text.From([Year], "pt-BR"), [Month Name]}, "-"), type text),
+    #"Inserted Quarter" = Table.AddColumn(#"Inserted Merged Column1", "Quarter", each Date.QuarterOfYear([Date]), Int64.Type),
+    #"Inserted Prefix" = Table.AddColumn(#"Inserted Quarter", "Prefix", each "Q" & Text.From([Quarter], "pt-BR"), type text),
+    #"Renamed Columns2" = Table.RenameColumns(#"Inserted Prefix",{{"Prefix", "Quarter Name"}}),
+    #"Inserted Start of Week" = Table.AddColumn(#"Renamed Columns2", "Start of Week", each Date.StartOfWeek([Date]), type date),
+    #"Inserted Week of Month" = Table.AddColumn(#"Inserted Start of Week", "Week of Month", each Date.WeekOfMonth([Date]), Int64.Type),
+    #"Inserted Week of Year" = Table.AddColumn(#"Inserted Week of Month", "Week of Year", each Date.WeekOfYear([Date]), Int64.Type),
+    #"Inserted Day" = Table.AddColumn(#"Inserted Week of Year", "Day", each Date.Day([Date]), Int64.Type),
+    #"Inserted Day of Week" = Table.AddColumn(#"Inserted Day", "Day of Week", each Date.DayOfWeek([Date]), Int64.Type),
+    #"Inserted Day Name" = Table.AddColumn(#"Inserted Day of Week", "Day Name", each Date.DayOfWeekName([Date]), type text)
+in
+    #"Inserted Day Name"
