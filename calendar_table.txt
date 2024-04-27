@@ -7,7 +7,7 @@ let
         2) #date(2021, 01, 01)
 */
     StartDate = #date(2021, 01, 01),
-    Source = List.Dates( EndDate, Duration.Days( EndDate - StartDate ) + 1, #duration(1, 0, 0, 0) ),
+    Source = List.Dates( StartDate, Duration.Days( EndDate - StartDate ) + 1, #duration(1, 0, 0, 0) ),
     #"Converted to Table" = Table.FromList(Source, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
     #"Changed Type" = Table.TransformColumnTypes(#"Converted to Table",{{"Column1", type date}}),
     #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"Column1", "Date"}}),
