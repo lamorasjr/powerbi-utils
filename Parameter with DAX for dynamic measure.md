@@ -10,7 +10,7 @@
 2. Set up properties:
 	* Name: `ParameterMetadata`
 	* Type: `Json`
-	* Value: `("kind": 2, "version": 3}`
+	* Value: `("version":3,"kind:2"}`
 
 ### 2. "Parameter Value" column needs to be grouped by "Parameter Fields":
 1. Properties > Options > Group by Columns
@@ -48,4 +48,4 @@ SELECTCOLUMNS (
 ```
 
 ## Reference article
-* ![Fields Parameters in Power BI - Accessed: Oct/2024](https://www.salbi.com/articles/fields-parameters-in-power-bil)
+* ![Fields Parameters in Power BI - Accessed: Oct/2024](https://www.sqlbi.com/articles/fields-parameters-in-power-bi/)
