@@ -1,0 +1,101 @@
+Customer_ID,Customer_Name,Email,Phone,Address,City,State,Country,Customer_Segment
+C0001,Daisy Velasquez,noah30@example.org,78-688-1793,23259 Olson Glens,Los Angeles,California,United States,Standard
+C0002,Michael Dickerson,bryan41@example.org,15-846-0268,52561 Miller Greens Suite 804,Berlin,Berlin,Germany,Standard
+C0003,James Patterson,ryanmosley@example.com,47-234-9985,72631 Murphy Field Suite 094,Uberlandia,Minas Gerais,Brazil,Standard
+C0004,Christine Bradford,alexis49@example.net,14-717-7049,077 Denise Drive,Toronto,Ontario,Canada,Premium
+C0005,Daniel Flores,michael77@example.com,60-911-4984,1710 Jason Groves,Niteroi,Rio de Janeiro,Brazil,Premium
+C0006,Dorothy Alvarez,dharper@example.com,57-844-1678,5166 Ortega Mountain Suite 140,Munich,Bavaria,Germany,Standard
+C0007,Julia Martinez,esnyder@example.com,76-499-3850,5739 David Green,Vicosa,Minas Gerais,Brazil,Premium
+C0008,Erin Collier,robinsoneduardo@example.net,00-801-2131,380 Miller Forges,Berlin,Berlin,Germany,Standard
+C0009,Karen Alvarado,phelpsshannon@example.com,68-862-3316,34266 Gilmore Flats,Berlin,Berlin,Germany,Premium
+C0010,Joseph Johnson,bclark@example.com,56-926-4906,08444 Dickerson Tunnel Suite 568,Montreal,Quebec,Canada,Standard
+C0011,Courtney Murphy,martinezadrian@example.com,39-279-1139,373 Spencer Dam,Los Angeles,California,United States,Premium
+C0012,Christopher Daniel,bairdcalvin@example.net,42-144-4252,65389 Deborah Flat Apt. 895,Munich,Bavaria,Germany,Standard
+C0013,Glenn Edwards,qwalsh@example.org,34-784-0951,8605 Peters Mission Apt. 831,Berlin,Berlin,Germany,Standard
+C0014,William Vargas,katie45@example.com,51-026-9335,45267 Turner Plaza,Niteroi,Rio de Janeiro,Brazil,Premium
+C0015,Melissa Robinson,brendamartinez@example.org,72-823-8337,22055 Thomas Club,Campinas,Sao Paulo,Brazil,Standard
+C0016,Ethan Myers,brownsamantha@example.com,94-095-0993,0067 Antonio Underpass Suite 752,Berlin,Berlin,Germany,Standard
+C0017,Yvonne Lopez,brewerwayne@example.org,37-571-5837,4235 Alisha Mill Suite 856,Austin,Texas,United States,Premium
+C0018,Meghan Webb,nriley@example.com,44-638-1656,5674 Amy Grove Suite 561,Sao Paulo,Sao Paulo,Brazil,Standard
+C0019,Ricky Jones Jr.,walshjonathan@example.com,76-521-8387,5439 Carrillo Skyway Apt. 550,Vicosa,Minas Gerais,Brazil,Standard
+C0020,Donna Giles,spencersusan@example.org,83-530-8497,0574 Sutton Pass,San Francisco,California,United States,Standard
+C0021,Teresa Barry,markramos@example.net,80-615-8243,5795 Smith Avenue Suite 809,Nuremberg,Bavaria,Germany,Premium
+C0022,Daisy Griffin,bonnie35@example.net,46-336-3816,0873 Galloway Fords,Barueri,Sao Paulo,Brazil,Standard
+C0023,Miranda Montgomery,jamesadams@example.com,94-181-7855,96195 Antonio Hollow Suite 282,Berlin,Berlin,Germany,Standard
+C0024,Joel Good,deborah67@example.com,26-573-5642,452 Robinson Cliff Apt. 026,Dallas,Texas,United States,Premium
+C0025,Eric Lee,susan52@example.org,80-040-2771,9880 Julie Plaza Apt. 671,Campinas,Sao Paulo,Brazil,Standard
+C0026,Autumn Santos,michael64@example.net,73-462-2690,84372 Evans Drive Apt. 441,Barueri,Sao Paulo,Brazil,Standard
+C0027,Diana Henderson,samanthaglover@example.net,10-472-8397,6735 Green Locks Suite 180,Dallas,Texas,United States,Standard
+C0028,Elizabeth Lopez,cortezjacob@example.net,51-519-2466,85655 Kristin Plain Apt. 628,San Diego,California,United States,Standard
+C0029,Jennifer Hodges,victoriamartinez@example.com,46-566-6565,5115 Jennifer Crest Apt. 027,Berlin,Berlin,Germany,Premium
+C0030,Ashley Lopez,zbrowning@example.org,22-505-4796,0120 Ortiz Run Suite 600,Munich,Bavaria,Germany,Standard
+C0031,Jared Gallagher,chenrebecca@example.com,57-886-8947,231 Winters Road,San Diego,California,United States,Premium
+C0032,Kimberly Williams,jessicapeterson@example.net,38-113-8914,3401 Diane Route,San Francisco,California,United States,Premium
+C0033,Lisa Skinner,tannerscott@example.com,18-680-4552,122 William Crescent Apt. 057,Nuremberg,Bavaria,Germany,Premium
+C0034,Lindsay Martin,daniellemoore@example.net,47-987-6071,99937 Simpson Curve,Campinas,Sao Paulo,Brazil,Premium
+C0035,Elizabeth Lawson,qmorrison@example.net,90-424-7923,076 Padilla Fall,Austin,Texas,United States,Premium
+C0036,Benjamin Willis,mooremartin@example.net,71-902-2512,859 Gray Haven Suite 278,Berlin,Berlin,Germany,Standard
+C0037,Katrina Tate,shannon13@example.net,75-387-8020,2046 Martinez Walks,Niteroi,Rio de Janeiro,Brazil,Premium
+C0038,Jason Morris,heatherhansen@example.com,80-498-0027,868 Jeffrey Path Apt. 649,Nuremberg,Bavaria,Germany,Standard
+C0039,Jason Schmidt,lschroeder@example.net,55-461-5228,83956 Elizabeth Circle,Quebec City,Quebec,Canada,Premium
+C0040,Richard Gutierrez,jennifercarpenter@example.net,16-663-2541,3886 Cole Pines,Nuremberg,Bavaria,Germany,Standard
+C0041,Brendan Li,samanthawilson@example.com,15-318-0232,948 Carolyn Street Suite 180,Laval,Quebec,Canada,Premium
+C0042,David Gaines,sheilaowen@example.net,73-713-0534,42360 Miranda Gateway,Dallas,Texas,United States,Standard
+C0043,Jimmy Bradley,blake96@example.net,70-111-5540,6534 Matthew Union,Belo Horizonte,Minas Gerais,Brazil,Standard
+C0044,David Sherman,joshuabutler@example.org,75-396-3717,6366 Lori Mountains,San Francisco,California,United States,Standard
+C0045,James Stanley,james10@example.org,68-211-7820,062 Lowe Rapid,Berlin,Berlin,Germany,Standard
+C0046,Robert Vance,pateldaniel@example.org,78-371-7695,966 Kimberly Island,Los Angeles,California,United States,Standard
+C0047,Tyler Henry,thomas34@example.org,99-277-6894,25509 Stephanie Mountains Suite 755,Niteroi,Rio de Janeiro,Brazil,Premium
+C0048,Michael Shelton,julie01@example.com,42-592-4209,21437 Alexis Haven,San Diego,California,United States,Standard
+C0049,Michele Williamson,dramos@example.com,62-796-1395,55068 Key Springs Suite 734,Nuremberg,Bavaria,Germany,Premium
+C0050,Dean Nelson,amy24@example.org,70-969-0116,250 Rodriguez Run,Duque de Caxias,Rio de Janeiro,Brazil,Premium
+C0051,Hannah Mendez,brittney75@example.net,73-520-0183,6194 Tammy Ridges Apt. 883,Toronto,Ontario,Canada,Premium
+C0052,Regina Lloyd MD,mfrazier@example.com,91-657-1584,99063 Kelly Forks Suite 829,Los Angeles,California,United States,Premium
+C0053,Jessica Griffin DDS,joseph68@example.net,68-999-7406,9426 Caroline Estates Suite 038,Ottawa,Ontario,Canada,Standard
+C0054,Elizabeth Price,robinbates@example.com,00-062-8969,0133 Cook Brook,Campinas,Sao Paulo,Brazil,Premium
+C0055,Nina Wilson,newtonjustin@example.org,79-211-3809,90857 William Forks,Sao Paulo,Sao Paulo,Brazil,Premium
+C0056,Kimberly Nolan,icook@example.com,04-656-5463,160 Dawson Flats Suite 679,Houston,Texas,United States,Premium
+C0057,Richard Ali,thall@example.com,45-286-9471,628 Richard Lodge,Toronto,Ontario,Canada,Standard
+C0058,Brian Murray,sbennett@example.net,75-410-6824,953 Harmon Lane,Sao Paulo,Sao Paulo,Brazil,Premium
+C0059,Regina Turner,kelly48@example.net,56-944-9394,9479 Susan Oval Suite 803,Toronto,Ontario,Canada,Premium
+C0060,Sandra Moran,susan93@example.org,03-424-5785,226 Perry Roads,Austin,Texas,United States,Premium
+C0061,Jeffrey Wilson,seansmith@example.com,40-064-3015,2446 Kenneth Meadow Apt. 851,Nuremberg,Bavaria,Germany,Standard
+C0062,Veronica Mack,jeremythompson@example.com,90-139-9704,7716 Webster Fords Apt. 673,Belo Horizonte,Minas Gerais,Brazil,Premium
+C0063,Rebekah Farmer,bushautumn@example.net,62-609-1327,38148 Barbara Locks,Austin,Texas,United States,Standard
+C0064,Kelly Faulkner,kimberly24@example.org,63-606-5342,90049 Brian Gateway Suite 385,Montreal,Quebec,Canada,Premium
+C0065,Kayla Rivera,elliottkenneth@example.net,29-804-0751,795 Brown Pines Apt. 835,Montreal,Quebec,Canada,Premium
+C0066,Dustin Hawkins,debrabrown@example.net,43-924-8257,369 Michael Gateway,San Diego,California,United States,Premium
+C0067,Crystal Price,tonyastone@example.net,06-093-9989,05655 Small Curve,Austin,Texas,United States,Standard
+C0068,Joshua Whitaker,nicolecampbell@example.net,80-658-9310,738 Melissa Burg,Berlin,Berlin,Germany,Standard
+C0069,Jason Morrow,william41@example.net,88-745-8538,12480 Jonathan Mall Apt. 719,Berlin,Berlin,Germany,Premium
+C0070,Suzanne Adams,stephen39@example.com,25-347-6374,3262 Contreras Course,Barueri,Sao Paulo,Brazil,Standard
+C0071,Manuel Hartman,angel21@example.org,19-655-1315,593 Collins Mission,Los Angeles,California,United States,Premium
+C0072,Sara Fields,raymond09@example.com,08-978-5741,8336 William Spring Apt. 317,Berlin,Berlin,Germany,Standard
+C0073,Harold Wolfe,tabitha13@example.org,85-013-0876,60738 Melissa Ports Apt. 313,Houston,Texas,United States,Standard
+C0074,Jacqueline Knox,sarabooker@example.net,88-935-7726,35585 Rowe Plain Apt. 852,Uberlandia,Minas Gerais,Brazil,Standard
+C0075,Angela Williams,kathy75@example.com,67-481-0833,3605 Nicole Hill,Montreal,Quebec,Canada,Standard
+C0076,James Bowman,uwhite@example.org,02-613-7167,598 Clark Trail,Dallas,Texas,United States,Standard
+C0077,Kevin Cunningham,rstewart@example.org,60-569-5352,7272 Gamble Plains Apt. 917,San Francisco,California,United States,Premium
+C0078,Rebecca Gates,christopherbrown@example.net,06-545-7879,42633 Ellis Station,Munich,Bavaria,Germany,Premium
+C0079,Douglas Johnson,udelgado@example.net,86-933-5500,2069 Michael Underpass,Hamilton,Ontario,Canada,Premium
+C0080,Dr. Joshua Hull,obrienjohn@example.org,45-050-4275,7324 Nancy Cove,Laval,Quebec,Canada,Premium
+C0081,Cole Thornton,baileyarcher@example.net,53-696-6052,2569 Bailey Streets Suite 605,Nuremberg,Bavaria,Germany,Standard
+C0082,Shannon Rogers,zlee@example.org,22-499-6042,425 Walker Port,Houston,Texas,United States,Standard
+C0083,Kyle Scott,sanfordjennifer@example.net,31-425-5996,62826 Anthony Neck,Berlin,Berlin,Germany,Premium
+C0084,Kenneth Campbell,josephvega@example.com,39-797-6808,52484 Melanie Throughway,Los Angeles,California,United States,Standard
+C0085,Kathy Kennedy,francoryan@example.net,71-895-7734,48349 Turner Street,Houston,Texas,United States,Standard
+C0086,Tracy Dickson,debbie23@example.org,30-897-4332,8862 Nicole Path,Laval,Quebec,Canada,Premium
+C0087,Daniel Alvarez,jessicaestrada@example.org,11-688-0332,7889 Anthony Burgs Apt. 631,Quebec City,Quebec,Canada,Standard
+C0088,Christopher Green,lisa98@example.org,75-959-2045,15502 Davis Valley Apt. 754,Nuremberg,Bavaria,Germany,Standard
+C0089,Kyle Smith,ncurtis@example.com,18-478-5288,872 James Manor Apt. 589,Los Angeles,California,United States,Standard
+C0090,Donna Parker,christopherallen@example.com,87-523-3652,47290 Ashley Fords,Sao Paulo,Sao Paulo,Brazil,Premium
+C0091,Andrew Robinson,davidjones@example.com,88-920-5622,03933 Casey Dam Apt. 476,Berlin,Berlin,Germany,Premium
+C0092,Luke Cole,pnorris@example.net,32-284-1119,013 Hannah Plaza,Houston,Texas,United States,Premium
+C0093,Krystal Poole,smithamber@example.net,72-563-1580,4272 Jones Lights,San Diego,California,United States,Standard
+C0094,Carlos Gallagher,alyssabradshaw@example.net,59-937-2031,90867 Hodges Unions,San Diego,California,United States,Premium
+C0095,Michael Mcguire,zbrown@example.net,61-442-3858,5145 Brian Viaduct Apt. 138,Belo Horizonte,Minas Gerais,Brazil,Standard
+C0096,Angel Smith,colleenperez@example.net,75-325-0253,56081 Nicole Village Apt. 918,Berlin,Berlin,Germany,Premium
+C0097,John King,foleymichael@example.com,28-763-8682,7047 Mark Glens,Sao Paulo,Sao Paulo,Brazil,Standard
+C0098,Lisa Dillon,hyoung@example.org,27-230-1033,8217 Michelle Cliff,Toronto,Ontario,Canada,Standard
+C0099,Heather Davis,john91@example.org,30-861-7083,292 David Square Suite 327,Los Angeles,California,United States,Standard
+C0100,Maria Olson,marshallteresa@example.com,06-607-0433,83561 Lisa Landing,Sao Paulo,Sao Paulo,Brazil,Standard
