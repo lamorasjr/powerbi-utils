@@ -1,0 +1,40 @@
+let
+// API parameters
+    Base_url = "https://graph.facebook.com/v20.0/",
+    Endpoint_url = "/campaigns",
+    Fields = "account_id,id,name,objective,,created_time",
+    Limit = "1000",
+    Date_preset = "maximum",
+            
+// Get API data functions
+    fn_get_api_data = ( Adaccount_id as text, Page_cursor as text) =>
+        Json.Document(
+            Web.Contents( 
+                Base_url,
+                [
+                    RelativePath = Adaccount_id & Endpoint_url,
+                    Headers = [ Authorization = "Bearer " & access_token ], 
+                    Query = [ date_preset=Date_preset, fields=Fields, limit=Limit, after=Page_cursor ] 
+                ] 
+            )
+        ),
+
+// Get API paginated results
+    fn_get_api_data_loop = ( Adaccount_id as text ) =>
+        List.Generate(
+            () => [
+                api_data = fn_get_api_data( Adaccount_id , "" ),   // Adjust the addacoun parameter here
+                api_cursor = ""
+            ],
+            each List.Count( [api_data][data] ) > 0,
+            each [ 
+                api_data = fn_get_api_data( Adaccount_id , [api_data][paging][cursors][after] ),   // Adjust the addacoun parameter here
+                api_cursor = [api_data][paging][cursors][after]
+            ],
+            each Table.FromRecords({[ api_data = [api_data][data], api_cursor = [api_data][paging][cursors][after] ]})
+        ),
+        
+// Get data from all user ad account
+    Source = Table.AddColumn(customer_adaccounts, "API data", each fn_get_api_data_loop([Customer Ad Account]))
+in
+    Source
