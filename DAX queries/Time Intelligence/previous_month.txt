@@ -1,0 +1,7 @@
+Revenue Previous Month = 
+CALCULATE(
+    [Total Revenue], 
+    DATEADD('Calendar'[Date], 
+    -1, 
+    MONTH)
+)

@@ -1,0 +1,5 @@
+YTD Revenue = 
+CALCULATE(
+    [Total Revenue], 
+    DATESYTD('Calendar'[Date])
+)

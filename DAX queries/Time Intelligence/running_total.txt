@@ -1,0 +1,10 @@
+90-day Rolling Profit =
+CALCULATE (
+    [Total Profit],
+    DATESINPERIOD( 
+        'Calendar'[Date], 
+        MAX ( 'Calendar'[Date] ), 
+        -90, 
+        DAY 
+    )
+)
